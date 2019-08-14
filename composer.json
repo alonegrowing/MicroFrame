@@ -1,0 +1,25 @@
+{
+    "name": "inke/micro.frame",
+    "description": "An efficient micro php framework based on swoole4.2.3",
+    "keywords": [
+        "swoole",
+        "framework",
+        "async"
+    ],  
+    "type": "framework",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1.0",
+        "vlucas/phpdotenv": "^2.5@dev",
+        "hassankhan/config": "0.11.2",
+        "psr/http-message": "^1.0@dev",
+        "eaglewu/swoole-ide-helper": "dev-master",
+        "guzzlehttp/guzzle": "^6.3@dev",
+        "doctrine/orm": "2.6.x-dev",
+        "catfan/medoo": "v1.6",
+        "leric/php-thrift": "0.10.0"   
+    },   
+	"autoload": {
+        "psr-4": {"MicroFrame\\": "src/"}
+    }
+}
