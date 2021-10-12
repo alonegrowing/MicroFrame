@@ -16,7 +16,7 @@
         "eaglewu/swoole-ide-helper": "dev-master",
         "guzzlehttp/guzzle": "^6.3@dev",
         "doctrine/orm": "2.6.x-dev",
-        "catfan/medoo": "v1.6",
+        "catfan/medoo": "v1.7.5",
         "leric/php-thrift": "0.10.0"   
     },   
 	"autoload": {
